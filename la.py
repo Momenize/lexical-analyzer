@@ -43,7 +43,7 @@ def tokenize(code):
     
     return tokens
 
-file = open('given_code.py', 'r')
+file = open('given_code.txt', 'r')
 text = file.read()
 
 tokens = tokenize(text)
